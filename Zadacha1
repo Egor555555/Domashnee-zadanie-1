@@ -1,0 +1,15 @@
+#include "pt4.h"
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+void Solve()
+{
+Task("TheOne7");
+float x, y;
+bool r;
+pt » x » y;
+r = (x * x + y * y >= 4) && (x <= 2 && y <= 2 && x >= -2 and y >= -2);
+pt « r ;
+
+}
