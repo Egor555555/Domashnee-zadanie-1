@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+int main(){
+using namespace std;
+int x1, x2, y1, y2;
+double d, z;
+cin » x1 » x2 » y1 » y2;
+d = ((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1));
+z = sqrt(d);
+cout « z;
+return 0; // x1=2, x2=4, y1=4, y2=1;
+// z=3.60555
+// x1=1, x2=6, y1=5, x2=4;
+// z=4.47214
+// x1=1, x2=3, y1=6, y2=6;
+// z=2
+
+
+}
