@@ -6,13 +6,13 @@ void Solve()
 {
 Task("TheOne25");
 short int x, y, z;
-pt » x » y » z;
+pt >> x >> y >> z;
 switch (z)
 {
-case 1: pt « (x & y); break;
-case 2: pt « (x | y); break;
-case 3: pt « (x ^ y); break;
-case 4: pt « (x « y); break;
-case 5: pt « (x » y); break;
+case 1: pt << (x & y); break;
+case 2: pt << (x | y); break;
+case 3: pt << (x ^ y); break;
+case 4: pt << (x << y); break;
+case 5: pt << (x >> y); break;
 }
 }
