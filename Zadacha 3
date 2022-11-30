@@ -11,11 +11,8 @@ void Solve()
     while (n) {
         if (n % 10 % 2 == 0) k++;
         if (n % 10 % 2 != 0) j++;
-        if (j > k) {
-            a = true;
-            break;
-        }
         n /= 10;
-    }
+    }if (j > k) 
+        a = true;
     pt << a;
 }
